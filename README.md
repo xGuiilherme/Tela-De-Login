@@ -2,8 +2,7 @@
   Tela de Login <img width="25px" src="https://raw.githubusercontent.com/EvanderInacio/Portfolio/3954a3ad525e1e2f9f58dac1417aae0abcdd176c/public/icon.svg"/>
 </h1>
 
-<p align="center">  
-  <img alt="Github Language Count" src="https://img.shields.io/github/languages/count/xGuiilherme/Portfolio?color=00FFFB">
+<p align="center">
   <img alt="Repository Size" src="https://img.shields.io/github/repo-size/xGuiilherme/Portfolio?color=00FFFB">
 </p>
 
