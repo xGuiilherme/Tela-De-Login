@@ -8,20 +8,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 86vh;
     justify-content: center;
     align-items: center;
 }
 
 .login {
+    width: 360px;
+    height: 320px;
+    padding: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: #181920;
     border-radius: 10px;
-    width: 360px;
-    height: 320px;
-    padding: 35px;
+    text-align: center;
 }
 
 .login form {
@@ -31,21 +32,41 @@ body {
 }
 
 .login input {
-    margin-top: 10px;
-    background-color: #252A34;
-    padding-left: 10px;
-    color: #CBD0F7;
-    outline: none;
-    border: none;
     height: 45px;
+    margin-top: 10px;
+    padding-left: 40px;
+    font-size: 18px;
+    background-color: #252A34;
+    color: #CBD0F7;
+    border: none;
+    outline: none;
     border-radius: 8px;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-position: 10px;
 }
 
-.login h2 {
-    font-size: 30px;
-    text-align: center;
-    color: #5568FE;
-    letter-spacing: 3px;
+.login img {
+    width: 120px;
+    height: 120px;
+    margin-top: -75px;
+    margin-bottom: 30px;
+}
+
+input.name {
+    background-image: url(../images/icone-usuario.png);
+}
+
+input.password {
+    background-image: url(../images/icone-cadeado.png);
+}
+
+input.submit {
+    color: white;
+    background-color: #f79300;
+    padding: 5px 20px;
+    height: 45px;
+    width: 100%;
 }
 
 input::placeholder {
@@ -59,7 +80,6 @@ form [type="submit"] {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: bold;
-    cursor: pointer;
 }
 
 p {
